@@ -1,0 +1,392 @@
+# English translations for PACKAGE package.
+# Copyright (C) 2016 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#  <jelle@vdwaa.nl>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-11-13 17:43+0100\n"
+"PO-Revision-Date: 2016-11-13 18:51+0100\n"
+"Last-Translator: jelle@vdwaa.nl\n"
+"Language-Team: English (British)\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.11\n"
+
+#: src/callback.c:45
+msgid "Could not allocate memory for response"
+msgstr "Kon geen geheugen alloceren voor antwoord"
+
+#: src/callback.c:50
+msgid "Could not write response to memory"
+msgstr "Kon antwoord niet schrijven naar geheugen"
+
+#: src/main.c:51
+msgid "You can only run one operation at a time"
+msgstr "Je kan maar een operatie tegelijk gebruiken"
+
+#: src/main.c:83
+msgid "Could not store argument"
+msgstr "Kan argument niet opslaan"
+
+#: src/main.c:83 src/pb.c:426 src/pbpst_db.c:89 src/pbpst_db.c:131
+#: src/pbpst_db.c:137 src/pbpst_db.c:167 src/pbpst_db.c:379 src/pbpst_db.c:477
+msgid "Out of Memory"
+msgstr "Geheugen vol"
+
+#: src/main.c:122
+msgid "Error checking file"
+msgstr "Fout bij het controleren van bestand"
+
+#: src/main.c:129
+msgid "File is not regular"
+msgstr "Geen regulier bestand"
+
+#: src/main.c:136
+msgid "File too Large"
+msgstr "Bestand te groot"
+
+#: src/main.c:147
+msgid "Sunset must be a finite, positive value"
+msgstr "Vervaltijd moet een eindige postieve waarde zijn"
+
+#: src/main.c:185
+msgid "Could not store provider"
+msgstr "Kan leverancier niet opslaan"
+
+#: src/main.c:197
+msgid "Only HTTPS providers are supported"
+msgstr "alleen HTTPS leveranciers zijn ondersteund"
+
+#: src/main.c:235
+msgid "Passed erroneous option(s)"
+msgstr "Ongeldige optie(s)"
+
+#: src/main.c:261
+msgid "Caught Interrupt"
+msgstr "Onderbreking ontvangen"
+
+#: src/main.c:298
+msgid "Removed empty swap flie (contingency)"
+msgstr "Leeg swap bestand verwijderd"
+
+#: src/main.c:299
+msgid "You need to manually check your swap db"
+msgstr ""
+
+#: src/pb.c:13 src/pb.c:124 src/pb.c:217 src/pb.c:291
+msgid "Could not get CURL handle"
+msgstr "Kon geen CURL handvat krijgen"
+
+#: src/pb.c:94
+msgid "Could not create paste"
+msgstr "Kon geen paste aanmaken"
+
+#: src/pb.c:172
+msgid "Could not create redirect"
+msgstr "Kon verwijzing niet volgen"
+
+#: src/pb.c:262
+msgid "Paste deleted"
+msgstr "Paste verwijdered"
+
+#: src/pb.c:267
+msgid "Could not delete paste"
+msgstr "Kan paste niet verwijderen"
+
+#: src/pb.c:326
+msgid "Could not get list"
+msgstr "Kon lijst niet ophalen"
+
+#: src/pb.c:426
+msgid "Could not modify variable"
+msgstr "Kon variable niet aanpassen"
+
+#: src/pb.c:433
+msgid "Could not setup URL for printing"
+msgstr "Kon URL niet opmaken voor printen"
+
+#: src/pb.c:466 src/pbpst_db.c:451
+msgid "No pastes found for provider"
+msgstr "Geen pastes gevonden voor leverancier"
+
+#: src/pbpst_db.c:36
+msgid "No valid location available for database"
+msgstr "Geen valide locatie beschikbaar voor database"
+
+#: src/pbpst_db.c:47 src/pbpst_db.c:153
+msgid "Could not save working directory"
+msgstr "Kon huidge werkmap niet opslaan"
+
+#: src/pbpst_db.c:54 src/pbpst_db.c:73 src/pbpst_db.c:82 src/pbpst_db.c:193
+msgid "Could not cd to directory"
+msgstr "Kon niet verplaatsen naar map"
+
+#: src/pbpst_db.c:69
+msgid "Could not create directory"
+msgstr "Kon map niet aanmaken"
+
+#: src/pbpst_db.c:89
+msgid "Could not save db path"
+msgstr "Kon db pad niet opslaan"
+
+#: src/pbpst_db.c:106
+msgid "Could not open file"
+msgstr "Kon bestand niet openen"
+
+#: src/pbpst_db.c:115 src/pbpst_db.c:186 src/pbpst_db.c:258
+msgid "Could not close file"
+msgstr "Kon bestand niet sluiten"
+
+#: src/pbpst_db.c:131
+msgid "Could not store db dirname"
+msgstr ""
+
+#: src/pbpst_db.c:137
+msgid "Could not store db basename"
+msgstr ""
+
+#: src/pbpst_db.c:160
+msgid "Could not cd to database path"
+msgstr ""
+
+#: src/pbpst_db.c:167
+msgid "Could not save swap db name"
+msgstr ""
+
+#: src/pbpst_db.c:176
+msgid "Could not create swap db"
+msgstr ""
+
+#: src/pbpst_db.c:177
+msgid "Ensure that pbpst is not already running and that all pastes have been saved"
+msgstr ""
+
+#: src/pbpst_db.c:179
+msgid "Please remove the swap database"
+msgstr ""
+
+#: src/pbpst_db.c:213
+msgid "Could not overwrite database"
+msgstr ""
+
+#: src/pbpst_db.c:226
+msgid "Could not open file for reading"
+msgstr ""
+
+#: src/pbpst_db.c:236
+msgid "Could not seek to file end"
+msgstr ""
+
+#: src/pbpst_db.c:244
+msgid "Could not get file position"
+msgstr ""
+
+#: src/pbpst_db.c:250
+msgid "Could not read file"
+msgstr "Could not read file"
+
+#: src/pbpst_db.c:271
+msgid "Could not open swap db"
+msgstr "Could not open swap db"
+
+#: src/pbpst_db.c:283 src/pbpst_db.c:290
+msgid "Could not flush memory to swap db"
+msgstr ""
+
+#: src/pbpst_db.c:313
+msgid "New provider set"
+msgstr ""
+
+#: src/pbpst_db.c:316
+msgid "Could not set new provider"
+msgstr ""
+
+#: src/pbpst_db.c:366
+msgid "Paste already existed"
+msgstr ""
+
+#: src/pbpst_db.c:374
+msgid "Could not scan offset"
+msgstr ""
+
+#: src/pbpst_db.c:379
+msgid "Could not store sunset epoch"
+msgstr ""
+
+#: src/pbpst_db.c:399
+msgid "Could not save new paste object"
+msgstr ""
+
+#: src/pbpst_db.c:426
+msgid "No pastes in-database found for provider"
+msgstr ""
+
+#: src/pbpst_db.c:431
+msgid "No paste in-database found with uuid"
+msgstr ""
+
+#: src/pbpst_db.c:477
+msgid "Could not format output"
+msgstr ""
+
+#: src/usage.c:14
+msgid "operation"
+msgstr "operatie"
+
+#: src/usage.c:23
+msgid "Usage"
+msgstr "Gebruik"
+
+#: src/usage.c:23
+msgid "option"
+msgstr "Optie"
+
+#: src/usage.c:24
+msgid "a simple tool to pastebin from the command-line"
+msgstr ""
+
+#: src/usage.c:25
+msgid "Operations"
+msgstr "Operaties"
+
+#: src/usage.c:25 src/usage.c:29
+msgid "Options"
+msgstr "Opties"
+
+#: src/usage.c:36
+msgid "Use `-h` with an operation for more help"
+msgstr ""
+
+#: src/usage.h:12
+msgid "Create a paste"
+msgstr ""
+
+#: src/usage.h:13
+msgid "Create a redirect to URL"
+msgstr ""
+
+#: src/usage.h:14
+msgid "Remove a paste"
+msgstr "Verwijder een paste"
+
+#: src/usage.h:15
+msgid "Update a paste"
+msgstr "Update een paste"
+
+#: src/usage.h:16
+msgid "Operate on the database"
+msgstr ""
+
+#: src/usage.h:19
+msgid "Use FILE to create paste"
+msgstr ""
+
+#: src/usage.h:20
+msgid "Lex paste for LANG"
+msgstr ""
+
+#: src/usage.h:21
+msgid "Use THEME for style"
+msgstr ""
+
+#: src/usage.h:22
+msgid "Format paste for FORM"
+msgstr ""
+
+#: src/usage.h:23
+msgid "Specify file extension as EXT"
+msgstr ""
+
+#: src/usage.h:24
+msgid "Highlight LINE in paste"
+msgstr ""
+
+#: src/usage.h:25
+msgid "Return a less-guessable paste ID"
+msgstr ""
+
+#: src/usage.h:26
+msgid "Set the paste to auto-deletion in TIME"
+msgstr ""
+
+#: src/usage.h:27
+msgid "Render paste (from md or rst) to HTML"
+msgstr ""
+
+#: src/usage.h:28
+msgid "Show Asciinema presentation"
+msgstr ""
+
+#: src/usage.h:29
+msgid "Show an upload progress bar"
+msgstr ""
+
+#: src/usage.h:30
+msgid "Save MSG as a note for the paste"
+msgstr ""
+
+#: src/usage.h:31
+msgid "Use NAME as a custom ID"
+msgstr ""
+
+#: src/usage.h:34 src/usage.h:43
+msgid "Target paste with UUID"
+msgstr ""
+
+#: src/usage.h:37
+msgid "Delete all expired pastes"
+msgstr ""
+
+#: src/usage.h:40
+msgid "Initialize a default database"
+msgstr ""
+
+#: src/usage.h:41
+msgid "List all providers in the database"
+msgstr "Toon alle leveranciers in de database"
+
+#: src/usage.h:42
+msgid "Search the database for a paste matching STR"
+msgstr ""
+
+#: src/usage.h:44
+msgid "Set provider (from `-P`) as default"
+msgstr "Stel de leverancier (van `-P`) als standaard"
+
+#: src/usage.h:47
+msgid "List this help and exit"
+msgstr "Deze hulptekst tonen en stoppen"
+
+#: src/usage.h:48
+msgid "Use the database at PATH"
+msgstr "Gebruik PATH als een alternative database-locatie"
+
+#: src/usage.h:49
+msgid "Use HOST as the pb provider"
+msgstr "Gebruik HOST als pb provider"
+
+#: src/usage.h:50
+msgid "Output verbosely"
+msgstr "Uitvoerige uitvoer"
+
+#: src/usage.h:51
+msgid "List the version and exit"
+msgstr "Programmaversie tonen en stoppen"
+
+#: src/usage.h:52
+msgid "List available lexers and exit"
+msgstr "Beschikbare lexers tonen en stoppen"
+
+#: src/usage.h:53
+msgid "List available themes and exit"
+msgstr "Beschikbare thema's tonen en stoppen"
+
+#: src/usage.h:54
+msgid "List available formatters and exit"
+msgstr "Beschikbare formaten tonen en stoppen"
